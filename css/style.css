@@ -112,7 +112,8 @@ footer.page-footer {
 .hex-hide:after{
   content:"";
   position:absolute;
-  width:0;height:0;
+  width:0;
+  height:0;
   border:80px solid transparent;
   border-bottom:0px solid white;
   border-right:145px solid white;
@@ -135,4 +136,7 @@ footer.page-footer {
 
 .textcol{
   color: white;
+}
+body{
+  overflow-x: hidden;
 }
